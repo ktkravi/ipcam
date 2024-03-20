@@ -2,7 +2,7 @@
 import streamlit as st
 import cv2
 
-vid = cv2.VideoCapture( 'rtsp://192.168.141.166:8080/h264.' )
+vid = cv2.VideoCapture( 'rtsp://192.168.141.166:8080/h264.sdp' )
 
 st.title( 'Using Mobile Camera with Streamlit' )
 frame_window = st.image( [] )
